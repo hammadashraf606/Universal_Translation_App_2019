@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="my_spinner_text_color">#424242</color>
+    <color name="darkbg">#666665</color>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bluebutton">#4b74ff</color>
+<color name="imgassetcolor">#3F51B5</color>
+    <!-- Screens background color-->
+    <color name="bg_slider_screen1">#6E3159</color>
+    <color name="bg_slider_screen2">#EF5555</color>
+    <color name="bg_slider_screen3">#01BCD4</color>
+    <color name="bg_slider_screen4">#373737</color>
+    <color name="dark">#000000</color>
+    <color name="white">#ffffff</color>
+
+    <color name="red">#ff0000</color>
+
+    <color name="yellow">#FCF2C5</color>
+
+    <color name="blue">#2d5d88</color>
+    <color name="blue_A2E5F5">#A2E5F5</color>
+
+
+
+    <!-- dots inactive colors -->
+    <color name="dot_inactive_screen1">#FF51163D</color>
+    <color name="dot_inactive_screen2">#FFCC7575</color>
+    <color name="dot_inactive_screen3">#FF0BE3FF</color>
+    <color name="dot_inactive_screen4">#FF807676</color>
+
+    <!-- dots active colors -->
+    <color name="dot_active_screen1">#FFB46098</color>
+    <color name="dot_active_screen2">#FFD4A0A0</color>
+    <color name="dot_active_screen3">#3a67e0</color>
+    <color name="dot_active_screen4">#FF877575</color>
+
+
+
+    <array name="array_dot_active">
+        <item>@color/dot_active_screen1</item>
+        <item>@color/dot_active_screen2</item>
+        <item>@color/dot_active_screen3</item>
+        <item>@color/dot_active_screen4</item>
+
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_inactive_screen1</item>
+        <item>@color/dot_inactive_screen2</item>
+        <item>@color/dot_inactive_screen3</item>
+        <item>@color/dot_inactive_screen4</item>
+
+    </array>
+</resources>
+
+

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Universal Translator</string>
+    <string name="spinner_prompt">Select Target Language</string>
+    <string name="source_spinner_prompt">Select Source Language(Voice Only)</string>
+    <string name="speech_prompt">Speak Now</string>
+    <string name="language_not_supported">Language Not Supported</string>
+    <string name="select_matching_text">Select Matching Text</string>
+    <string name="process_tts">Switching Language</string>
+    <string name="start">start</string>
+    <string name="next">Accept</string>
+    <string name="slide_1_title">Terms and Conditions</string>
+    <string name="slide_1_desc">This application is used to translate text between languages by typing, speech or camera</string>
+    <string name="slide_2_desc">These permission are being used in this application.</string>
+    <string name="slide_3_desc">1.Camera</string>
+    <string name="navigation_drawer_open">navigation_drawer_open</string>
+    <string name="navigation_drawer_close">navigation_drawer_close</string>
+    <string name="slide_4_desc">2.Internet</string>
+    <string name="slide_5_desc">3.Audio Recording</string>
+    <string name="slide_6_desc">If you want to use this application please tap on accept button.</string>
+    <string name="skip">Decline</string>
+    <string name="home">home</string>
+
+    <!--
+    test id
+    -->
+ <string name="interstitial">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="banner">ca-app-pub-3940256099942544/6300978111</string>
+
+</resources>

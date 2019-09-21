@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/mainlayout"
+    android:background="@android:color/holo_blue_bright"
+    android:weightSum="5">
+
+    <LinearLayout
+
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:layout_weight="5"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:weightSum="100">
+
+
+        <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+            android:id="@+id/spnSrc"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:background="@drawable/customspinner"
+            android:prompt="@string/source_spinner_prompt"
+            android:visibility="gone"/>
+
+
+        <LinearLayout
+            android:id="@+id/LLsrc"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="35"
+            android:background="@drawable/roundedwhite"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:weightSum="10">
+
+            <EditText
+                android:id="@+id/etsample"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="8"
+                android:hint="Enter text(Langage will be detected automatically)" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:orientation="vertical"
+                android:weightSum="10">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/btnSpeak"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="3"
+                    android:clickable="true"
+                    android:src="@drawable/ic_action_name" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/btnPaste"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="4"
+                    android:clickable="true"
+                    android:src="@drawable/ic_action_paste" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/btnVision"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="3"
+                    android:clickable="true"
+                    android:src="@drawable/ic_action_cam" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnTranslate"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="10"
+            android:background="@drawable/rounded"
+            android:text="TRANSLATE"
+            android:textColor="#FFFFFF" />
+
+        <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+            android:id="@+id/spnTarget"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="10"
+            android:background="@drawable/customspinner" />
+
+        <LinearLayout
+            android:id="@+id/LLtarget"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="35"
+            android:background="@drawable/roundedwhite"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:weightSum="10">
+
+            <TextView
+                android:id="@+id/text_view"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                android:layout_weight="8"
+                android:paddingLeft="10dp"
+                android:text="No text yet"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:orientation="vertical"
+                android:weightSum="10">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/btnSTT"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="3"
+                    android:clickable="true"
+                    android:src="@drawable/ic_action_speak" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/btnCopy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="4"
+                    android:clickable="true"
+                    android:src="@drawable/ic_action_copy" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/btnClr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="3"
+                    android:clickable="true"
+                    android:src="@drawable/ic_action_clear" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!--<include
+        android:id="@+id/banner_ad"
+        layout="@layout/banner_ad" />
+    -->
+    <include layout="@layout/banner_ad"/>
+</LinearLayout>

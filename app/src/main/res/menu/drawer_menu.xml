@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_TextSize"
+            android:icon="@drawable/ic_action_textsize"
+            android:title="Change Text Size" />
+        <item
+            android:id="@+id/nav_Theme"
+            android:icon="@drawable/ic_action_theme"
+            android:title="Switch to Night Mode" />
+        <item
+            android:id="@+id/nav_Head"
+            android:icon="@drawable/ic_action_head"
+            android:title="Start Active Translator" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_action_share"
+            android:title="Share" />
+        <item
+            android:id="@+id/nav_rate"
+            android:icon="@drawable/ic_action_rate"
+            android:title="Rate Us" />
+    </group>
+</menu>

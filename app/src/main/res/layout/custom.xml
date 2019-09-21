@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_rl"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border"
+    android:orientation="vertical"
+    android:weightSum="10"
+    >
+
+
+    <LinearLayout
+    android:layout_marginTop="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+<ImageView
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:src="@mipmap/icon"
+    />
+
+        <TextView
+            android:id="@+id/dialog_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="Are you sure you want to exit Universal Translator?"
+            android:textColor="#000"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+        android:orientation="horizontal"
+        android:weightSum="3">
+        <!--android:background="@drawable/border"-->
+
+
+        <Button
+            android:id="@+id/exit"
+            android:layout_margin="20dp"
+            android:background="@color/colorPrimary"
+
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/_12sdp"
+            android:text="Yes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:id="@+id/dialog_positive_btn"
+            android:layout_width="wrap_content"
+            android:layout_margin="20dp"
+            android:text="No"
+
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/_12sdp"
+
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

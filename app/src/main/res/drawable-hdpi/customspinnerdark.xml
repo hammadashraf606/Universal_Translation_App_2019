@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item>
+        <shape>
+            <solid android:color="@color/my_spinner_text_color" />
+            <corners android:radius="10dp"/>
+            <stroke
+                android:width="0dp"
+                android:color="#6f94c7" />
+
+            <padding
+                android:bottom="2dp"
+                android:left="2dp"
+                android:right="2dp"
+                android:top="2dp" />
+        </shape>
+    </item>
+
+    <item>
+        <bitmap
+            android:gravity="end"
+            android:src="@drawable/ic_action_ddwhite" />  //your image
+    </item>
+</layer-list>

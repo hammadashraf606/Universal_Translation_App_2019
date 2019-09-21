@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_bright"
+    >
+
+
+
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_marginTop="35dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/slide_title"
+            android:text="@string/slide_1_title"
+
+            android:textSize="@dimen/slide_title"
+            android:textStyle="bold" />
+
+
+
+        <TextView
+            android:id="@+id/t2"
+            android:layout_below="@+id/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/slide_1_desc"
+            android:textAlignment="center"
+
+            android:textSize="@dimen/slide_desc" />
+        <TextView
+            android:id="@+id/t3"
+            android:layout_below="@+id/t2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/slide_2_desc"
+            android:textAlignment="center"
+
+            android:textSize="@dimen/slide_desc" />
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:id="@+id/t4"
+            android:layout_below="@+id/t3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="@dimen/desc_padding"
+            android:paddingRight="@dimen/desc_padding"
+            android:text="@string/slide_3_desc"
+            android:textAlignment="center"
+
+            android:textSize="@dimen/slide_desc" />
+        <TextView
+            android:id="@+id/t5"
+            android:layout_below="@+id/t4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:paddingLeft="@dimen/desc_padding"
+            android:paddingRight="@dimen/desc_padding"
+            android:text="@string/slide_4_desc"
+            android:textAlignment="center"
+
+            android:textSize="@dimen/slide_desc" />
+        <TextView
+            android:id="@+id/t6"
+            android:layout_below="@+id/t5"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="@dimen/desc_padding"
+            android:paddingRight="@dimen/desc_padding"
+            android:text="@string/slide_5_desc"
+            android:textAlignment="center"
+
+            android:textSize="@dimen/slide_desc" />
+        <TextView
+            android:id="@+id/t7"
+            android:layout_below="@+id/t6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="@dimen/desc_padding"
+            android:paddingRight="@dimen/desc_padding"
+            android:text="@string/slide_6_desc"
+            android:textAlignment="center"
+
+            android:textSize="@dimen/slide_desc" />
+
+
+</RelativeLayout>
